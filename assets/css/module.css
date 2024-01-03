@@ -1250,6 +1250,36 @@ Portfolio
   background-color: #4da6e7;
 }
 
+@media(max-width: 490px){
+  .section-heading{
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    place-items: center;
+    margin-left: -0.4em;
+  }
+}
+
+@media(max-width: 320px){
+  .section-heading{
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    place-items: center;
+    font-size: 0.9em;
+    margin-left: -0.1em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .section-heading{
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    place-items: center;
+  }
+}
+
 /* 
 ---------------------------------------------
 Blog
