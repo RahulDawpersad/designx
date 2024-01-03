@@ -151,6 +151,15 @@
 })(window.jQuery);
 
 
+//logo functionality
+let home = document.getElementById('homepage');
+home.addEventListener('click', homeHandler);
+function homeHandler(){
+  window.location.href = 'https://www.rahuldawpersad.com';
+}
+
+
+
 // Link to github
 function githubHandler(){
   window.location.href = 'https://github.com/RahulDawpersad';
